@@ -3,14 +3,16 @@
 Media over QUIC (moq) will work on a solution for a simple low-latency 
 media delivery protocol that is common across ingest and distribution. 
 This work may address use cases including live streaming, gaming, and 
-media conferencing and allows efficient scaling.The solution supports 
+media conferencing and allows efficient scaling. The solution supports 
 both web browsers and simple devices that don’t contain embedded browsers. 
  
 The work focuses on two main areas: A common media publication protocol, 
 and a way to name and request media. 
  
 The media publication protocol will be a push protocol for sending 
-media including audio, video, and timed metadata. The common protocol for 
+media including audio, video, and timed metadata. It will provided a
+mapping of one more media container formats onto QUIC.
+The common protocol for 
 publishing media over ingest and distribution will support:
 
 * one or more media description formats, 
