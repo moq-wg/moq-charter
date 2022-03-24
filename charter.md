@@ -35,7 +35,9 @@ The mechanism to name and request media will enable:
 The MOQ architecture allows for the use of optional relays as first 
 class elements of the design. The media publication protocol can 
 leverage on-path relays/caches wherever applicable to improve the 
-media quality. 
+media quality. Even when media is end to end encrypted, the relays
+can access some meta data needed for caching such as timestampe and
+priority. 
  
 This working group will not propose changes to underlying QUIC transport, 
 but may propose requirements to the QUIC WG for things such as extensions 
