@@ -52,7 +52,7 @@ as appropriate.
 * WG adoption of Protocol Specification for Datagram Extension to Media Publication Protocol over QUIC
 * WG adoption of Protocol Specification for Media Subscription Protocol over QUIC
 * WG adoption of Architecture Specification for a Common Media Delivery Protocol over QUIC draft
-* WG adoption of Usescase and Requirements document for Media Delivery over QUIC
+* WG adoption of Usescase and Requirements document for Media Delivery over QUIC - decision about whether to forward to IESG for publication to be made later, by WG consensus  
 * Forward Protocol Specification for Media Publication Protocol over QUIC draft to IESG
 * Forward Protocol Specification for Datagram Extension to Media Publication Protocol over QUIC draft to IESG
 * Forward Protocol Specification for Media Subscription Protocol over QUIC draft to IESG
