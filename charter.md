@@ -15,7 +15,8 @@ publishing media over ingest and distribution will support:
 
 * one or more media description formats, 
 * an interoperable way to request media and encodings,
-* adaptation strategies for different media qualities, 
+* adaptation strategies for different media qualities,
+* timestamp of media,
 * prioritization of media, 
 * optional use of datagrams or streams for audio media 
 * a cache friendly media mechanisms. 
