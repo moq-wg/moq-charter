@@ -21,14 +21,13 @@ will support:
 * prioritization of media, 
 * a cache friendly media mechanisms. 
 
-Media will be mapped onto QUIC streams as part of the baseline 
-protocol and an extension mechanism will be defined to map 
-the media onto QUIC datagrams.
+Media will be mapped onto underlying QUIC mechanisms (QUIC Streams or
+QUIC datagrams).
 
 The proposed solution provides extensibility for supporting different 
-media container formats (including CMAF), multiple media types, 
-media encodings and prioritization schemes. The protocol will provide 
-mappings for media  on top of WebTransport and directly on top of QUIC. 
+media container formats (including CMAF) and shall define a mandatory to 
+implement container format to ensure interperability.
+Support for multiple media types, media encodings and prioritization schemes shall be proposed.  
  
 The mechanism to name and request media will enable:
 
@@ -56,12 +55,12 @@ as appropriate.
  
 ## Milestones
 
-* WG adoption of Protocol Specification for Media Publication Protocol over QUIC
+* WG adoption of Protocol Specification for Common Media Publication Protocol over QUIC
 * WG adoption of Protocol Specification for Datagram Extension to Media Publication Protocol over QUIC
 * WG adoption of Protocol Specification for Media Subscription Protocol over QUIC
 * WG adoption of Architecture Specification for a Common Media Delivery Protocol over QUIC draft
 * WG adoption of Usescase and Requirements document for Media Delivery over QUIC - decision about whether to forward to IESG for publication to be made later, by WG consensus  
-* Forward Protocol Specification for Media Publication Protocol over QUIC draft to IESG
+* Forward Protocol Specification for Common Media Publication Protocol over QUIC draft to IESG
 * Forward Protocol Specification for Datagram Extension to Media Publication Protocol over QUIC draft to IESG
 * Forward Protocol Specification for Media Subscription Protocol over QUIC draft to IESG
 * Forward Architecture Specification for a Common Media Delivery Protocol over QUIC draft to IESG
