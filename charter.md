@@ -21,13 +21,12 @@ will support:
 * prioritization of media, 
 * a cache friendly media mechanisms. 
 
-Media will be mapped onto underlying QUIC mechanisms (QUIC Streams or
+Media will be mapped onto underlying QUIC mechanisms (QUIC Streams and/or
 QUIC datagrams).
 
 The proposed solution provides extensibility for supporting different 
-media container formats (including CMAF) and shall define a mandatory to 
-implement container format to ensure interperability.
-Support for multiple media types, media encodings and prioritization schemes shall be proposed.  
+media container formats (including CMAF) and shall specify a mandatory to 
+implement container format to ensure interoperability. Support for multiple media types, media encodings and prioritization schemes shall be proposed.  
  
 The mechanism to name and request media will enable:
 
