@@ -17,16 +17,14 @@ will support:
 * one or more media formats, 
 * an interoperable way to request media and encodings,
 * adaptation strategies for different media qualities, 
-* timestamp of media,
-* prioritization of media, 
-* a cache friendly media mechanisms. 
+* cache friendly media mechanisms. 
 
 Media will be mapped onto underlying QUIC mechanisms (QUIC Streams and/or
 QUIC datagrams) and can be used over raw QUIC or WebTransport.
 
 The proposed solution provides extensibility for supporting different 
-media formats and shall specify a mandatory to implement format to ensure interoperability. Support for multiple media types, media encodings and 
-prioritization schemes shall be proposed.  
+media formats and shall specify a mandatory to implement format to ensure interoperability. Support for multiple media types, media encodings shall be 
+proposed.  
  
 The mechanism to name and request media will enable:
 
@@ -38,13 +36,16 @@ The mechanism to name and request media will enable:
 The MOQ architecture allows for the use of optional relays as first 
 class elements of the design. The media publication protocol can 
 leverage on-path relays/caches wherever applicable to improve the 
-media quality. Even when media is end-to-end encrypted, the relays
-can access some metadata needed for caching such as timestamp,
-priority and so on.
+media quality. Media is encrypted, possibly end-to-end encrypted 
+for certain usecass. The keying mechanisms for the media confidentiality
+is however outside the scope of this working group. Even when media is 
+end-to-end encrypted, the relays can access metadata needed for caching
+such as timestamp, making media forwarding decisions(such as drop or 
+delay under congestion) and so on.
  
 This working group will not propose changes to underlying QUIC 
-transport, but may propose requirements for QUIC extensions to the QUIC WG. This working 
-group will not define signaling mechanisms for discovery of relay or 
+transport, but may propose requirements for QUIC extensions to the QUIC WG. 
+This working group will not define signaling mechanisms for discovery of relay or 
 media producers or consumers. 
  
 This working group will coordinate with the QUIC and WebTransport working 
