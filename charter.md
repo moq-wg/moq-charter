@@ -6,15 +6,15 @@ This work may address use cases including live streaming, gaming, and
 media conferencing and allows efficient scaling. The solution supports 
 both web browsers and simple devices that don’t contain embedded browsers. 
  
-The work focuses on two main areas: A common media publication protocol, 
-and a way to name and request media. 
- 
+The work focuses building protocol mechanisms for publication of media 
+and ways to identify and interact with the media.
+
 The media publication protocol will be a push protocol for sending 
 media including audio, video, and timed metadata.
 The common protocol for publishing media over ingest and distribution 
 will support:
 
-* one or more media description/container formats, 
+* one or more media formats, 
 * an interoperable way to request media and encodings,
 * adaptation strategies for different media qualities, 
 * timestamp of media,
@@ -25,8 +25,8 @@ Media will be mapped onto underlying QUIC mechanisms (QUIC Streams and/or
 QUIC datagrams).
 
 The proposed solution provides extensibility for supporting different 
-media container formats (including CMAF) and shall specify a mandatory to 
-implement container format to ensure interoperability. Support for multiple media types, media encodings and prioritization schemes shall be proposed.  
+media formats and shall specify a mandatory to implement format to ensure interoperability. Support for multiple media types, media encodings and 
+prioritization schemes shall be proposed.  
  
 The mechanism to name and request media will enable:
 
