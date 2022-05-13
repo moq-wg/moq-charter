@@ -31,8 +31,8 @@ implement container format to ensure interoperability. Support for multiple medi
 The mechanism to name and request media will enable:
 
 * Requesting server start sending media related to given point in the stream
-* Cue points ?????
-* Integration with captions ???
+* Cue points
+* Integration with captions
 * Selection of desire encoding ( choosing language, bit rate , etc ) 
  
 The MOQ architecture allows for the use of optional relays as first 
