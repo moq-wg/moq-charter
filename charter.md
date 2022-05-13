@@ -7,7 +7,7 @@ media conferencing and allows efficient scaling. The solution supports
 both web browsers and simple devices that don’t contain embedded browsers. 
  
 The work focuses building protocol mechanisms for publication of media 
-and ways to identify and interact with the media.
+and ways to identify and receive the media.
 
 The media publication protocol will be a push protocol for sending 
 media including audio, video, and timed metadata.
