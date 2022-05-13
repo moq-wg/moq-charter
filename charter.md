@@ -43,8 +43,7 @@ can access some metadata needed for caching such as timestamp,
 priority and so on.
  
 This working group will not propose changes to underlying QUIC 
-transport, but may propose requirements to the QUIC WG for things 
-such as extensions to congestion control algorithms. This working 
+transport, but may propose requirements for QUIC extensions to the QUIC WG. This working 
 group will not define signaling mechanisms for discovery of relay or 
 media producers or consumers. 
  
