@@ -24,9 +24,12 @@ will support:
 Media will be mapped onto underlying QUIC mechanisms (QUIC Streams and/or
 QUIC datagrams) and can be used over raw QUIC or WebTransport.
 
-The proposed solution provides extensibility for supporting different 
-media formats and shall specify a mandatory to implement format to ensure interoperability. Support for multiple media types, media encodings and 
-prioritization schemes shall be proposed.  
+The proposed solution provides extensibility for supporting different media
+container formats (including CMAF) and shall specify a mandatory to implement
+container format to ensure interoperability. Support for multiple media types,
+media encodings and prioritization schemes shall be proposed, in addition to a
+simple method of authentication to access media streams as well as carrying
+information for additional decryption of media payloads where required.
  
 The mechanism to name and request media will enable:
 
