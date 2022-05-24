@@ -21,20 +21,20 @@ will support:
 * prioritization of media, 
 * a cache friendly media mechanisms. 
 
+The mechanism to name and receive media will enable:
+
+* Requesting server start sending media related to given point in the stream
+* Cue points
+* Integration with captions
+* Selection of desire encoding ( choosing language, bit rate , etc ) 
+
 Media will be mapped onto underlying QUIC mechanisms (QUIC Streams and/or
 QUIC datagrams) and can be used over raw QUIC or WebTransport.
 
 The proposed solution provides extensibility for supporting different 
 media formats and shall specify a mandatory to implement format to ensure interoperability. Support for multiple media types, media encodings and 
 prioritization schemes shall be proposed.  
- 
-The mechanism to name and request media will enable:
-
-* Requesting server start sending media related to given point in the stream
-* Cue points
-* Integration with captions
-* Selection of desire encoding ( choosing language, bit rate , etc ) 
- 
+  
 The MOQ architecture allows for the use of optional relays as first 
 class elements of the design. The media publication protocol can 
 leverage on-path relays/caches wherever applicable to improve the 
