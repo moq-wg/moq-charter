@@ -10,7 +10,8 @@ The work focuses on building protocol mechanisms for publication of media
 and ways to identify and receive the media.
 
 The media publication protocol will be a push protocol for sending 
-media including audio, video, and timed metadata.
+media including audio, video, and timed metadata, such as closed captions and
+cue points.
 The common protocol for publishing media over ingest and distribution 
 will support:
 
@@ -22,8 +23,6 @@ will support:
 The mechanism to name and receive media will enable:
 
 * Requesting server start sending media related to given point in the stream
-* Cue points
-* Integration with captions
 * Selection of desire encoding ( choosing language, bit rate , etc ) 
 
 Media will be mapped onto underlying QUIC mechanisms (QUIC Streams and/or
