@@ -36,12 +36,11 @@ proposed. The solution will specify a simple method of authentication to access
 media, as well as a mechanism for carrying information enabling additional
 decryption of media payloads where required.
 
-The MOQ architecture will allow for the use of optional relays as first
-class elements of the design. The media publication protocol can
-leverage on-path relays/caches wherever applicable to improve the
-media quality. Media will be encrypted, possibly end-to-end encrypted
-for certain usecases. The keying mechanisms for media confidentiality
-is however outside the scope of this working group. Even when media is
+The working group will define MoQ so that the media publication protocol 
+can leverage coodinating relays, caches, or replication points wherever applicable 
+to improve the delivery performance. Media will be encrypted, possibly 
+end-to-end encrypted for certain usecases. The keying mechanisms for media 
+confidentiality is however outside the scope of this working group. Even when media is
 end-to-end encrypted, the relays can access metadata needed for caching
 (such as timestamp), making media forwarding decisions (such as drop or
 delay under congestion) and so on.
