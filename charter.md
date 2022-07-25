@@ -50,8 +50,8 @@ will not define signaling mechanisms for discovery of relay or media producers
 or consumers.
 
 This working group will coordinate with the QUIC and WebTransport working
-groups as needed. It will liaise with MPEG-DASH, and W3C WebTransport
-as appropriate.
+groups as needed. It will liaise with MPEG-DASH, DASH Industr Forum, and 
+W3C WebTransport as appropriate.
 
 ## Milestones
 
