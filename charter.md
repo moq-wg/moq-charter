@@ -37,7 +37,7 @@ media, as well as a mechanism for carrying information enabling additional
 decryption of media payloads where required.
 
 The working group will define MoQ so that the media publication protocol 
-can leverage on-path relays,caches, or replication points wherever applicable 
+can leverage coodinating relays, caches, or replication points wherever applicable 
 to improve the delivery performance. Media will be encrypted, possibly 
 end-to-end encrypted for certain usecases. The keying mechanisms for media 
 confidentiality is however outside the scope of this working group. Even when media is
