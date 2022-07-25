@@ -1,6 +1,6 @@
 # Draft Charter for Media over QUIC
 
-Media over QUIC (moq) will develop simple low-latency media delivery solution
+Media over QUIC (moq) will develop a simple low-latency media delivery solution
 for ingest and distribution.  This solution may address use cases including live
 streaming, gaming, and media conferencing and will scale efficiently. The
 solution will support both web browsers and simple devices that don’t contain
@@ -46,7 +46,7 @@ end-to-end encrypted, the relays can access metadata needed for caching
 (such as timestamp), making media forwarding decisions (such as drop or
 delay under congestion) and so on.
 
-This working group will not propose changes to underlying QUIC transport, but
+This working group will not propose changes to the underlying QUIC transport, but
 may propose requirements for QUIC extensions to the QUIC WG. This working group
 will not define signaling mechanisms for discovery of relay or media producers
 or consumers.
