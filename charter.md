@@ -49,7 +49,7 @@ may propose requirements for QUIC extensions to the QUIC WG. This working group
 will not define signaling mechanisms for discovery of relay or media producers
 or consumers.
 
-This working group will coordinate with the QUIC and WebTransport working
+This working group will coordinate with the QUIC, WebTransport, and MOPS working
 groups as needed. It will liaise with MPEG-DASH, DASH Industr Forum, and 
 W3C WebTransport as appropriate.
 
