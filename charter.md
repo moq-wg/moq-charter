@@ -41,7 +41,7 @@ to improve the delivery performance.
 
 Media will be encrypted at the transport layer using the standard QUIC
 mechanisms.  Media content may be end-to-end encrypted in certain use cases,
-where the "end-to-end" keys are avialable to media sources and consumers, but
+where the "end-to-end" keys are available to media sources and consumers, but
 not relays.  Even when media is end-to-end encrypted, the relays can access
 metadata needed for caching (such as timestamp), making media forwarding
 decisions (such as drop or delay under congestion) and so on.  Such media
