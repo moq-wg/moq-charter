@@ -17,7 +17,7 @@ will support:
 * one or more media formats,
 * an interoperable way to request media and encodings,
 * rate adaption strategies based on changing codec rates, changing chosen media
-encoding/qualities,
+encoding/qualities, or other mechanisms
 * cache friendly media mechanisms
 
 The mechanism to name and receive media will enable:
