@@ -44,7 +44,7 @@ mechanisms.  Media content may be end-to-end encrypted in certain use cases,
 where the "end-to-end" keys are available to media sources and consumers, but
 not relays.  Even when media is end-to-end encrypted, the relays can access
 metadata needed for caching (such as timestamp), making media forwarding
-decisions (such as drop or delay under congestion) and so on.  Such media
+decisions (such as drop or delay under congestion), and so on.  Such media
 metadata will be authenticated and integrity-protected end-to-end.  Mechanisms
 for establishing keys for these end-to-end protections are outside the scope of
 this group.
