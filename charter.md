@@ -18,7 +18,7 @@ will support:
 * an interoperable way to request media and encodings,
 * rate adaption strategies based on changing codec rates, changing chosen media
 encoding/qualities,
-* cache friendly media mechanisms
+* cache friendly media mechanisms, including for semi-live, DVR, and VOD use-cases
 
 The mechanism to name and receive media will enable:
 
