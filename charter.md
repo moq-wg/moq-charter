@@ -8,7 +8,7 @@ solution will be implementable in both browser and non-browser endpoints.
 The work focuses on building protocol mechanisms for publication of media
 and means to identify and receive the media.
 
-The media publication protocol will be a push protocol for sending
+The media publication protocol will enable sending
 media including audio, video, and timed metadata, such as closed captions and
 cue points.
 The common protocol for publishing media over ingest and distribution
