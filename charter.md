@@ -37,12 +37,17 @@ decryption of media payloads where required.
 
 The working group will define MoQ so that the media publication protocol 
 can leverage coodinating relays, caches, or replication points wherever applicable 
-to improve the delivery performance. Media will be encrypted, possibly 
-end-to-end encrypted for certain usecases. The keying mechanisms for media 
-confidentiality is however outside the scope of this working group. Even when media is
-end-to-end encrypted, the relays can access metadata needed for caching
-(such as timestamp), making media forwarding decisions (such as drop or
-delay under congestion) and so on.
+to improve the delivery performance.
+
+Media will be encrypted at the transport layer using the standard QUIC
+mechanisms.  Media content may be end-to-end encrypted in certain use cases,
+where the "end-to-end" keys are avialable to media sources and consumers, but
+not relays.  Even when media is end-to-end encrypted, the relays can access
+metadata needed for caching (such as timestamp), making media forwarding
+decisions (such as drop or delay under congestion) and so on.  Such media
+metadata will be authenticated and integrity-protected end-to-end.  Mechanisms
+for establishing keys for these end-to-end protections are outside the scope of
+this group.
 
 This working group will not propose changes to the underlying QUIC transport, but
 may propose requirements for QUIC extensions to the QUIC WG. This working group
