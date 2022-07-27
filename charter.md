@@ -37,7 +37,7 @@ decryption of media payloads where required.
 
 The working group will define MoQ so that the media publication protocol 
 can leverage coodinating relays, caches, or replication points wherever applicable 
-to improve the delivery performance. Media will be transprt encrypted via QUIC
+to improve the delivery performance. Media will be transport encrypted via QUIC
 and the protocol will also provide optional end-to-end encryption
 from ingest to delivery. The keying mechanisms for this encryption
 are outside the scope of this working group. The end-to-end encryption
