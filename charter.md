@@ -15,7 +15,7 @@ The common protocol for publishing media over ingest and distribution
 will support:
 
 * one or more media formats,
-* an interoperable way to request media and encodings,
+* an interoperable way to indicate the media and the media format being sent,
 * rate adaption strategies based on changing codec rates, changing chosen media
 encoding/qualities, or other mechanisms
 * cache friendly media mechanisms
