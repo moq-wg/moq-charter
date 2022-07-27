@@ -32,7 +32,7 @@ The proposed solution will provide extensibility for supporting different media
 formats and shall specify a mandatory to implement media format to ensure
 interoperability. Support for multiple media types and media encodings shall be
 proposed. The solution will specify a simple method for clients to authenticate
-to the relay either to transmit or receive media.
+to the relay or server to transmit or receive media.
 
 The working group will define MoQ so that the media publication protocol 
 can leverage coodinating relays, caches, or replication points wherever applicable 
