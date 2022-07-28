@@ -1,7 +1,7 @@
 # Draft Charter for Media over QUIC
 
 Media over QUIC (moq) will develop a simple low-latency media delivery solution
-for ingest and distribution.  This solution shall address use cases that may include live
+for ingest and distribution.  This solution addresses use cases that may include live
 streaming, gaming, and media conferencing and will scale efficiently. The
 solution will be implementable in both browser and non-browser endpoints.
 
