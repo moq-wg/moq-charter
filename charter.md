@@ -2,7 +2,7 @@
 
 Media over QUIC (moq) will develop a simple low-latency media delivery solution
 for ingest and distribution.  This solution may address use cases including live
-streaming, gaming, and media conferencing and will scale efficiently. The
+media, gaming, and video conferencing and will scale efficiently. The
 solution will be implementable in both browser and non-browser endpoints.
 
 The work focuses on building protocol mechanisms for publication of media
