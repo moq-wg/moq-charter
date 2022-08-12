@@ -1,7 +1,7 @@
 # Draft Charter for Media over QUIC
 
 Media over QUIC (moq) will develop a simple low-latency media delivery solution
-for ingest and distribution.  This solution may address use cases including live
+for ingest and distribution of media.  This solution may address use cases including live
 streaming, gaming, and media conferencing and will scale efficiently. The
 solution will be implementable in both browser and non-browser endpoints.
 
@@ -11,12 +11,12 @@ and means to identify and receive the media.
 The media publication protocol will enable sending
 media including audio, video, and timed metadata, such as closed captions and
 cue points.
-The common protocol for publishing media over ingest and distribution
+The common protocol for publishing media for ingest and distribution
 will support:
 
 * one or more media formats,
 * an interoperable way to request media and encodings,
-* rate adaption strategies based on changing codec rates, changing chosen media
+* rate adaptation strategies based on changing codec rates, changing chosen media
 encoding/qualities, or other mechanisms
 * cache friendly media mechanisms
 
@@ -30,14 +30,15 @@ QUIC datagrams) and can be used over raw QUIC or WebTransport.
 
 The proposed solution will provide extensibility for supporting different media
 formats and shall specify a mandatory to implement media format to ensure
-interoperability. Support for multiple media types and media encodings shall be
-proposed. The solution will specify a simple method for clients to authenticate
-to the relay or server to transmit or receive media.
+interoperability. The proposed solution will support multiple media types and media encodings.
+
 
 The working group will define MoQ so that the media publication protocol 
 can leverage coodinating relays, caches, or replication points wherever applicable 
 to improve the delivery performance.
 
+The solution will specify a simple method for clients to authenticate
+to the relay or server to transmit or receive media.
 Media will be encrypted at the transport layer using the standard QUIC
 mechanisms.  Media content may be end-to-end encrypted in certain use cases,
 where the "end-to-end" keys are available to media sources and consumers, but
@@ -54,7 +55,7 @@ will not define signaling mechanisms for discovery of relay or media producers
 or consumers.
 
 This working group will coordinate with the QUIC, WebTransport, and MOPS working
-groups as needed. It will liaise with MPEG Systems WG, DASH Industr Forum, and 
+groups as needed. It will liaise with MPEG Systems WG, DASH Industry Forum, and 
 W3C WebTransport as appropriate.
 
 ## Milestones
