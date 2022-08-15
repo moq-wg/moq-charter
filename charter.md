@@ -34,7 +34,7 @@ interoperability. The proposed solution will support multiple media types and me
 
 
 The working group will define MoQ so that the media publication protocol 
-can leverage coodinating relays, caches, or replication points wherever applicable 
+can leverage coordinating relays, caches, or replication points wherever applicable 
 to improve the delivery performance.
 
 The solution will specify a simple method for clients to authenticate
